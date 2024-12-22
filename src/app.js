@@ -9,7 +9,7 @@ const app = express();
 
 app.use(bodyParser.json());
 
-mongoose.connect('mongodb://localhost:27017/shortenURL ', {
+mongoose.connect('mongodb://localhost:27017/shortenURL', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
